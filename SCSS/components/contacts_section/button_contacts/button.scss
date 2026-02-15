@@ -1,0 +1,31 @@
+@use "../../../base/root" as *;
+@use "../../../base/mixins" as *;
+
+.button_submit {
+    @include flex_row_center;
+    width: 157px;
+    height: 63px;
+    background-color: #FFFFFF;
+    color: #75422E;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: $border_radius_m;
+    font-size: $font_size_subtitle;
+    font-family: $font_fam_button;
+    font-weight: $font_weight_xxl;
+    gap: $gap_3xl;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button_submit:hover {
+    transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+    .button_submit {
+        width: 145px;
+        height: 55px;
+        font-size: 17px;
+    }
+}

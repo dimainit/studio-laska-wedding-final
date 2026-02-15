@@ -1,0 +1,19 @@
+.wedding_planning_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 333px);
+  grid-template-rows: repeat(2, 125px);
+  max-width: 1280px;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 88px;
+}
+
+.block_plan {
+  position: relative;
+}
+
+.plan_img_bg {
+  position: absolute;
+  z-index: 0;
+  bottom: 78px;
+}

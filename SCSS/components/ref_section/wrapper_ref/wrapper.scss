@@ -1,0 +1,11 @@
+@use "../../../base/root" as *;
+@use "../../../base/mixins" as *;
+
+.wrapper_ref {
+    @include flex-column;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 100px 16px 100px 16px;
+    
+
+}

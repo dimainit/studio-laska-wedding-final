@@ -1,0 +1,44 @@
+.blocks_field {
+  display: flex;
+  gap: 20px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.block_text_field {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7px;
+}
+
+.block input {
+  width: 333px;
+  height: 40px;
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  border: 1px solid #000000;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  font-size: 16px;
+}
+
+textarea {
+  width: 687px;
+  height: 200px;
+  margin-bottom: 40px;
+  padding: 15px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  padding-bottom: 5px;
+  font-size: 19px;
+  font-weight: 200;
+  font-family: "Lato", serif;
+}

@@ -1,0 +1,8 @@
+.block_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1285px;
+  margin: 0 auto;
+  position: relative;
+}

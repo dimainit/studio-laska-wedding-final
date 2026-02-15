@@ -1,0 +1,68 @@
+@use "../../../../base/root" as *;
+
+//фул экран//
+.popup  {
+    position: $position_fix;
+    inset: 0; //top+right+bottom+left=0//
+    border: 0; 
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 20;
+}
+
+//само окно//
+.popup_window {
+    width: 360px;
+    max-width: calc(100% - 30px); //Защита от маленьких экранов.//
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    padding: 20px 18px;
+    text-align: center;
+    position: $position_abs;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    animation: popover-open 0.3s ease;
+}
+
+// крестик в модалальном окне//
+.popup_close {
+    position: $position_abs;
+    top: 6px;
+    right: 10px;
+    border: none; //Убираем стандартную кнопку браузера (рамку).//
+    background: transparent; //Убираем фон кнопки.//
+    cursor: pointer;
+    font-size: $font_size_subtitle_s;
+} 
+
+.title_popover {
+    color: $color_text_button;
+}
+
+.subtitle_popover {
+    color: #949494;
+    font-weight: $font_weight_xs;
+    font-family: $font_fam_subtitle;
+}
+
+@keyframes popover-open {
+    from {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
+//Все transform-функции пишутся в одной строке и в правильном порядке//
+
+
+

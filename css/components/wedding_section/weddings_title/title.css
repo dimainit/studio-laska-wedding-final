@@ -1,0 +1,38 @@
+.wedding_planning_title {
+  font-family: "Cormorant", serif;
+  max-width: 1040px;
+  font-size: 53px;
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 93px;
+  padding-bottom: 88px;
+}
+
+@media (max-width: 1024px) {
+  .wedding_planning_title {
+    font-size: 46px;
+  }
+}
+@media (max-width: 1024px) {
+  .wedding_planning_title {
+    font-size: 46px;
+  }
+}
+@media (max-width: 768px) {
+  .wedding_planning_title {
+    font-size: 42px;
+  }
+}
+@media (max-width: 480px) {
+  .wedding_planning_title {
+    font-size: 38px;
+  }
+}
+@media (max-width: 320px) {
+  .wedding_planning_title {
+    font-size: 32px;
+  }
+}
+
+/*# sourceMappingURL=title.css.map */

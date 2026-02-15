@@ -1,0 +1,17 @@
+.comments {
+  width: 510px;
+  margin: 0 auto;
+}
+
+.title_comment {
+  font-size: 18px;
+  font-family: "Lato", serif;
+  font-weight: 600;
+  padding: 15px 0 15px 0;
+}
+
+.subtitle_comment {
+  font-size: 18px;
+  font-family: "Lato", serif;
+  font-weight: 200;
+}

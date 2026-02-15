@@ -1,0 +1,52 @@
+@use "../../../base/root" as *;
+
+.team_image {
+    display: block;
+    width: 683px;
+    max-width: 100%;
+    height: auto;
+    border-radius: $border_radius_s;
+}
+
+@media (max-width: 1190px) {
+    .team_image {
+        max-width: 650px;
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .team_image {
+        max-width: 620px;
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .team_image {
+        max-width: 590px;
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .team_image {
+        max-width: 560px;
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .team_image {
+        max-width: 530px;
+        height: auto;
+        width: 100%;
+    }
+}

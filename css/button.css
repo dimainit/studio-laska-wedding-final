@@ -1,0 +1,29 @@
+.button_plan {
+  margin: 0 auto;
+}
+
+.button_pl {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 335px;
+  height: 63px;
+  background-color: #ffffff;
+  color: #75422E;
+  padding: 8px 20px;
+  font-family: "Lato", serif;
+  font-size: 19px;
+  font-weight: bold;
+  border: 1px solid #75422E;
+  border-radius: 10px;
+  box-shadow: 6px 8px 30px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+  margin-top: 40px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.button_pl:hover {
+  transform: scale(1.03);
+}

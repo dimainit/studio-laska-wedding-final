@@ -1,0 +1,71 @@
+@use "../../../base/root" as *;
+
+.text_ref {
+    text-align: center;
+}
+
+.title_ref {
+    font-family: $font_fam_title;
+    font-size: $font_size_title;
+    color: $color_title;
+    font-weight: $font_weight_xl;
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.subtitle_ref {
+    font-family: $font_fam_subtitle;
+    font-size: $font_size_subtitle;
+    font-weight: $font_weight_xs;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 1024px) {
+    .title_ref {
+        font-size: 46px;
+    }
+
+    .subtitle_ref {
+        font-size: 17px;
+        padding: 16px 24px 65px 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title_ref {
+            font-size: 42px;
+    }
+
+    .subtitle_ref {
+        font-size: 14px;
+        padding: 16px 24px 55px 24px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .title_ref {
+            font-size: 38px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .title_ref {
+            font-size: 32px;
+        }
+    .subtitle_ref {
+        font-size: 14px;
+        padding: 14px 24px 50px 24px;
+    }    
+}
+
+

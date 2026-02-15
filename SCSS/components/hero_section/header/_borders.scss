@@ -1,0 +1,47 @@
+@use "../../../base/root" as *;
+
+.border_bottoms {
+    position: $position_abs;
+    width: 100%;
+    top: calc(100% + 20px);
+}
+
+.border_bot_one {
+    position: $position_abs;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 1);
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.border_bot_two {
+    position: $position_abs;
+    border-bottom: 1.2px solid rgba(255, 255, 255, 0.8);
+    width: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.border_bot_three {
+    position: $position_abs;
+    border-bottom: 0.8px solid rgba(255, 255, 255, 0.6);
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.border_bot_four {
+    position:$position_abs;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.border_bot_five {
+    position: $position_abs;
+    border-bottom: 0.2px solid rgba(255, 255, 255, 0.2);
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+}

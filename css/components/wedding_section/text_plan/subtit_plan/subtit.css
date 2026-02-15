@@ -1,0 +1,31 @@
+.subtitle_plan {
+  font-family: "Lato", serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+  .subtitle_plan {
+    width: 400px;
+  }
+}
+@media (max-width: 920px) {
+  .subtitle_plan {
+    width: 300px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 702px) {
+  .subtitle_plan {
+    width: 200px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 528px) {
+  .subtitle_plan {
+    width: 320px;
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=subtit.css.map */

@@ -1,0 +1,10 @@
+@use "../../../base/root" as *;
+
+.hero_img_bg {
+    position: $position_rel;
+    min-height: 100vh;
+    background-image: url(/Images/header_prewiew.jpg);
+    background-size: cover;
+    background-position:0% 30%;
+    width: 100%;
+}

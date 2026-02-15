@@ -1,0 +1,50 @@
+.wedding_planning_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 125px);
+  max-width: 1280px;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 88px;
+  padding: 0 22px;
+}
+
+.block_plan {
+  position: relative;
+}
+
+.plan_img_bg {
+  position: absolute;
+  z-index: 0;
+  bottom: 78px;
+}
+
+@media (max-width: 1024px) {
+  .wedding_planning_grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    padding: 0 72px;
+  }
+}
+@media (max-width: 920px) {
+  .wedding_planning_grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 65px;
+    padding: 0 80px;
+  }
+}
+@media (max-width: 702px) {
+  .wedding_planning_grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 0 80px;
+  }
+}
+@media (max-width: 528px) {
+  .wedding_planning_grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 100px;
+  }
+}
+
+/*# sourceMappingURL=grid_svatby.css.map */

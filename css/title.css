@@ -1,0 +1,22 @@
+.team_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 72px;
+  font-size: 53px;
+  color: #BB9D8E;
+  font-family: "Cormorant", serif;
+  line-height: 65px;
+  padding-bottom: 88px;
+}
+
+.team_subtitle {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 1100px) and (max-width: 1260px) {
+  .team_subtitle {
+    font-size: 16px;
+  }
+}

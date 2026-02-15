@@ -1,0 +1,124 @@
+@use "../../../base/root" as *;
+
+
+.block_img_ref {
+    display: flex;
+    align-items: center;
+    gap: $gap_m;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+}
+
+.ref_img {
+    width: 100%;
+    max-width: 556px;
+
+}
+
+
+@media (max-width: 790px) {
+.block_img_ref {
+    gap: 0;
+    width: 100%;
+        max-width: 900px;
+        display: flex;
+}
+
+.ref_img {
+    max-width: 500px;
+}
+
+.ref_right_block,
+.ref_left_block {
+    width: 70px;
+    padding: 8px;
+}
+}
+
+
+@media (max-width: 642px) {
+    .block_img_ref {
+        gap: 0;
+        width: 100%;
+        max-width: 900px;
+        display: flex;
+}
+
+    .ref_img {
+        max-width: 400px;
+}
+
+    .ref_right_block,
+    .ref_left_block {
+        width: 55px;
+        padding: 6px;
+}
+}
+
+
+@media (max-width: 501px) {
+    .block_img_ref {
+        gap: 0;
+        width: 100%;
+        max-width: 900px;
+        display: flex;
+    }
+
+    .ref_img {
+        max-width: 320px;
+    }
+
+    .ref_right_block,
+    .ref_left_block {
+        width: 45px;
+        padding: 4px;
+    }
+}
+
+
+@media (max-width: 402px) {
+    .block_img_ref {
+        gap: 0;
+        width: 100%;
+        max-width: 900px;
+        display: flex;
+    }
+
+    .ref_img {
+        max-width: 250px;
+    }
+
+    .ref_right_block,
+    .ref_left_block {
+        width: 40px;
+        padding: 2px;
+    }
+}
+
+@media (max-width: 320px) {
+    .block_img_ref {
+        gap: 0;
+        width: 100%;
+        max-width: 900px;
+        display: flex;
+    }
+
+    .ref_img {
+        max-width: 200px;
+    }
+
+    .ref_right_block,
+    .ref_left_block {
+        width: 30px;
+        padding: 2px;
+    }
+}
+
+
+
+
+
+
+

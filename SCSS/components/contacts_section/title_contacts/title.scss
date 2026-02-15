@@ -1,0 +1,44 @@
+@use "../../../base/root" as *;
+
+.title_contacts {
+    font-size: $font_size_title;
+    font-family: $font_fam_title;
+    color: $color_title;
+    padding-bottom: 93px;
+    padding: 163px 0 0 120px;
+    max-width: 864px;
+    width: 100%;
+}
+
+
+@media (max-width: 1190px) {
+    .title_contacts {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .title_contacts {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title_contacts {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title_contacts {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 320px) {
+    .title_contacts {
+        font-size: 32px;
+    }
+}

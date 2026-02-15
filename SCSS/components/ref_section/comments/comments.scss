@@ -1,0 +1,95 @@
+@use "../../../base/root" as *;
+
+.comments {
+    width: 556px;
+    margin: 0 auto;
+}
+
+.title_comment {
+    font-size: $font_size_base;
+    font-family: $font_fam_title_two;
+    font-weight: $font_weight_xl;
+    padding: 15px 0 15px 0;
+
+}
+
+.subtitle_comment {
+    font-size: $font_size_base;
+    font-family: $font_fam_subtitle;
+    font-weight: $font_weight_s;
+}
+
+@media (max-width: 790px) {
+    .comments {
+        width: 500px;
+    }
+
+    .title_comment {
+        padding: 14px 0px 10px 0px;
+        font-size: 17px;
+    }
+
+    .subtitle_comment {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 642px) {
+    .comments {
+        width: 400px;
+    }
+
+    .title_comment {
+        font-size: 16px;
+        padding: 12px 0px 8px 0px;
+    }
+
+    .subtitle_comment {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 501px) {
+    .comments {
+        width: 320px;
+    }
+    
+    .title_comment {
+        font-size: 15px;
+        padding: 10px 0px 6px 0px;
+    }
+
+    .subtitle_comment {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 402px) {
+    .comments {
+        width: 250px;
+    }
+    
+    .title_comment {
+        font-size: 14px;
+    }
+
+    .subtitle_comment {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .comments {
+        width: 200px;
+    }
+    
+    .title_comment {
+        padding: 8px 0px 4px 0px;
+        font-size: 13px;
+    }
+
+    .subtitle_comment {
+        font-size: 8px;
+}
+}

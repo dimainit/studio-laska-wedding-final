@@ -1,0 +1,73 @@
+@use "../../../base/root" as *;
+@use "../../../base/mixins" as *;
+
+.services_title {
+    @include flex_row_center;
+    padding-top: 72px;
+    font-size: $font_size_title;
+    color: $color_title;
+    font-family: $font_fam_title;
+    line-height: 65px;
+}
+
+.services_subtitle {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    height: 69px;
+    font-family: $font_fam_subtitle;
+    font-size: $font_size_subtitle;
+    color: $color_black;
+    font-weight: $font_weight_s;
+}
+
+
+@media (max-width: 1190px) {
+    .services_title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .services_title {
+        font-size: 46px;
+    }
+
+    .services_subtitle {
+        font-size: 18px;
+        padding: 0 26px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services_title {
+        font-size: 42px;
+    }
+    .services_subtitle {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .services_title {
+        font-size: 38px;
+    }
+    .services_subtitle {
+        font-size: 14px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 320px) {
+    .services_title {
+        font-size: 32px;
+    }
+    .services_subtitle {
+        font-size: 14px;
+        margin-bottom: 80px;
+    }
+}

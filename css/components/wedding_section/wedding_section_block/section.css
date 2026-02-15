@@ -1,0 +1,34 @@
+.weddings_wrapper {
+  background: linear-gradient(180deg, #9A8477 0%, #E7DFD4 100%);
+  border-radius: 20px 20px 0 0;
+  height: auto;
+  min-height: 0;
+}
+
+@media (max-width: 1190px) {
+  .wedding_planning {
+    margin-top: -60px;
+  }
+}
+@media (max-width: 1024px) {
+  .wedding_planning {
+    margin-top: -60px;
+  }
+}
+@media (max-width: 768px) {
+  .wedding_planning {
+    margin-top: -60px;
+  }
+}
+@media (max-width: 480px) {
+  .wedding_planning {
+    margin-top: -60px;
+  }
+}
+@media (max-width: 320px) {
+  .wedding_planning {
+    margin-top: -60px;
+  }
+}
+
+/*# sourceMappingURL=section.css.map */

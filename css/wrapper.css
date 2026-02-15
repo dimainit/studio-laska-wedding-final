@@ -1,0 +1,26 @@
+.wrapper_ref {
+  display: flex;
+  flex-direction: column;
+  width: 686px;
+  height: 1000px;
+  margin: 0 auto;
+  padding-top: 101px;
+}, 255, 0) 82.24%, #FFFFFF 100%), linear-gradient(180deg, rgba(255, 255, 255, 0) 88.17%, #FFFFFF 100%), #EFE8DD;
+}
+
+.weddings_images_block {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  padding-top: 212px;
+}
+
+.img_wedding {
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.img_wedding:hover {
+  transform: scale(1.03);
+}

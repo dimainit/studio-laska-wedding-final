@@ -1,0 +1,31 @@
+.title_plan {
+  font-family: "Lato", serif;
+  font-size: 21px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+  .title_plan {
+    font-size: 19px;
+  }
+}
+@media (max-width: 920px) {
+  .title_plan {
+    font-size: 18px;
+    padding-bottom: 12px;
+  }
+}
+@media (max-width: 702px) {
+  .title_plan {
+    font-size: 17px;
+    padding-bottom: 8px;
+  }
+}
+@media (max-width: 528px) {
+  .title_plan {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=title.css.map */

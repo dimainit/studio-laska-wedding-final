@@ -1,0 +1,130 @@
+.burger {
+  display: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.burger_icon img {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 70%;
+  right: 12%;
+  transform: translateY(-70%);
+}
+
+.burger_menu {
+  position: fixed;
+  inset: 0 0 0 auto;
+  height: 100vh;
+  width: 250px;
+  background: #d7b49e;
+  padding: 40px 20px;
+  border: none;
+}
+.burger_menu a {
+  color: #3a2a22;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+.burger_close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: 28px;
+  color: #3a2a22;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.burger_close:hover {
+  transform: scale(1.08);
+}
+
+.burger_list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 42px;
+}
+
+@media (min-width: 700px) and (max-width: 840px) {
+  .burger {
+    display: flex;
+    margin-left: auto;
+    margin-right: 98px;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav_header {
+    display: none;
+  }
+}
+@media (min-width: 580px) and (max-width: 700px) {
+  .burger {
+    display: flex;
+    margin-left: auto;
+    margin-right: 98px;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger_icon img {
+    width: 34px;
+    height: 34px;
+  }
+  .nav_header {
+    display: none;
+  }
+}
+@media (min-width: 400px) and (max-width: 580px) {
+  .burger {
+    display: flex;
+    margin-left: auto;
+    margin-right: 98px;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger_icon img {
+    width: 32px;
+    height: 32px;
+  }
+  .nav_header {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 400px) {
+  .burger {
+    display: flex;
+    margin-left: auto;
+    margin-right: 98px;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger_icon img {
+    width: 28px;
+    height: 28px;
+  }
+  .nav_header {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .burger {
+    display: flex;
+    margin-left: auto;
+    margin-right: 98px;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger_icon img {
+    width: 24px;
+    height: 24px;
+  }
+  .nav_header {
+    display: none;
+  }
+}

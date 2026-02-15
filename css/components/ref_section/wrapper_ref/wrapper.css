@@ -1,0 +1,9 @@
+.wrapper_ref {
+  display: flex;
+  flex-direction: column;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 100px 16px 100px 16px;
+}
+
+/*# sourceMappingURL=wrapper.css.map */

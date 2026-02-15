@@ -1,0 +1,14 @@
+.logo_footer {
+  width: 157px;
+  height: 163px;
+  margin: 31px 0 12px 0;
+}
+
+@media (max-width: 468px) {
+  .logo_footer {
+    width: 145px;
+    height: 155px;
+  }
+}
+
+/*# sourceMappingURL=logo.css.map */

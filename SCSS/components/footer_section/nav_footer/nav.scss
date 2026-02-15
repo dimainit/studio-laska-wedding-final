@@ -1,0 +1,14 @@
+@use "../../../base/root" as *;
+
+.nav_footer {
+    display: flex;
+    gap: $gap_m;
+    
+}
+
+@media (max-width: 468px) {
+    .nav_footer {
+       font-size: 14px; 
+       gap: 15px;
+    }
+}

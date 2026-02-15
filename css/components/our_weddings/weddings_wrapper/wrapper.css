@@ -1,0 +1,108 @@
+.our_weddings_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 0 100px 0;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 82.24%, #FFFFFF 100%), linear-gradient(180deg, rgba(255, 255, 255, 0) 88.17%, #FFFFFF 100%), #EFE8DD;
+}
+
+.weddings_images_block {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+  padding-top: 212px;
+}
+
+.img_wedding {
+  height: 270px;
+  max-width: 100%;
+  object-fit: cover;
+  min-width: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.img_wedding:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 1190px) {
+  .weddings_images_block {
+    gap: 38px;
+  }
+  .img_wedding {
+    height: 250px;
+    flex: 1;
+    min-width: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .weddings_images_block {
+    gap: 32px;
+  }
+  .img_wedding {
+    height: 230px;
+    flex: 1;
+    min-width: 0;
+  }
+}
+@media (max-width: 768px) {
+  .weddings_images_block {
+    flex-direction: column;
+    padding-top: 170px;
+  }
+  .img_wedding {
+    min-width: 0;
+    width: 100%;
+    min-width: 0;
+    height: 200px;
+  }
+  .img_wedding_imp {
+    min-width: 0;
+    width: 100%;
+    min-width: 0;
+    height: 200px;
+    object-fit: cover;
+  }
+  .weddings_left_block,
+  .weddings_right_block {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .weddings_images_block {
+    flex-direction: column;
+    padding-top: 170px;
+  }
+  .img_wedding {
+    min-width: 0;
+    width: 100%;
+    min-width: 0;
+    height: 150px;
+  }
+  .weddings_left_block,
+  .weddings_right_block {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .weddings_images_block {
+    flex-direction: column;
+    padding-top: 200px;
+  }
+  .img_wedding {
+    min-width: 0;
+    width: 100%;
+    min-width: 0;
+    height: 150px;
+    padding: 0px 20px;
+  }
+  .weddings_left_block,
+  .weddings_right_block {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=wrapper.css.map */

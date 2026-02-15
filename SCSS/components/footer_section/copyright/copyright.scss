@@ -1,0 +1,8 @@
+@use "../../../base/root" as *;
+
+.footer_copyright {
+    color: $color_white;
+    font-family: $font_fam_title_two;
+    font-size: 12px;
+    font-weight: $font_weight_l;
+}

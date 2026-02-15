@@ -1,0 +1,6 @@
+@use "../../../base/mixins" as *;
+
+.block_footer {
+    @include flex_column_center;
+    text-align: center;
+}

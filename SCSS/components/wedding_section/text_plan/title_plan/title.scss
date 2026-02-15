@@ -1,0 +1,34 @@
+@use "../../../../base/root" as *;
+
+.title_plan {
+    font-family: $font_fam_title_two;
+    font-size: $font_size_title_s;
+    font-weight: $font_weight_l;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+    .title_plan {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 920px) {
+    .title_plan {
+        font-size: 18px;
+        padding-bottom: 12px;
+    }
+}
+
+@media (max-width: 702px) {
+    .title_plan {
+        font-size: 17px;
+        padding-bottom: 8px;
+}
+}
+
+@media (max-width: 528px) {
+    .title_plan {
+        font-size: 20px;
+    }
+}
