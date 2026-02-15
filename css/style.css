@@ -1662,6 +1662,7 @@ a:hover {
 @media (max-width: 1024px) {
   .title_contacts {
     font-size: 46px;
+    margin-top: 100px;
   }
 }
 @media (max-width: 768px) {
@@ -1987,8 +1988,12 @@ label {
   font-weight: 400;
 }
 
+#team {
+  scroll-margin-top: -60px;
+}
+
 #services {
-  scroll-margin-top: -40px;
+  scroll-margin-top: -140px;
 }
 
 #reference {
@@ -1996,11 +2001,80 @@ label {
 }
 
 #our_weddings {
-  scroll-margin-top: -50px;
+  scroll-margin-top: -10px;
 }
 
 #contact {
   scroll-margin-top: -80px;
+}
+
+@media (max-width: 1024px) {
+  #team {
+    scroll-margin-top: 120px;
+  }
+  #services {
+    scroll-margin-top: 140px;
+  }
+  #reference {
+    scroll-margin-top: 190px;
+  }
+  #our_weddings {
+    scroll-margin-top: 220px;
+  }
+  #contact {
+    scroll-margin-top: 300px;
+  }
+}
+@media (max-width: 912px) {
+  #team {
+    scroll-margin-top: 120px;
+  }
+  #services {
+    scroll-margin-top: -100px;
+  }
+  #reference {
+    scroll-margin-top: 190px;
+  }
+  #our_weddings {
+    scroll-margin-top: 220px;
+  }
+  #contact {
+    scroll-margin-top: 190px;
+  }
+}
+@media (max-width: 480px) {
+  #team {
+    scroll-margin-top: 120px;
+  }
+  #services {
+    scroll-margin-top: -100px;
+  }
+  #reference {
+    scroll-margin-top: 130px;
+  }
+  #our_weddings {
+    scroll-margin-top: -60px;
+  }
+  #contact {
+    scroll-margin-top: 50px;
+  }
+}
+@media (max-width: 380px) {
+  #team {
+    scroll-margin-top: 30px;
+  }
+  #services {
+    scroll-margin-top: -120px;
+  }
+  #reference {
+    scroll-margin-top: -30px;
+  }
+  #our_weddings {
+    scroll-margin-top: -60px;
+  }
+  #contact {
+    scroll-margin-top: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
