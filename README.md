@@ -1,4 +1,4 @@
-#💍 Studio Laska – Wedding Agency Landing Page
+💍 Studio Laska – Wedding Agency Landing Page
 
 Responsive landing page for a fictional wedding agency, focused on clean UI, structured layout, and modern frontend practices.
 
