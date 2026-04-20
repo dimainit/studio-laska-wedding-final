@@ -1,5 +1,7 @@
 # 💍 Studio Laska – Wedding Agency Landing Page
 
+🔗 Live Demo: [https://your-link-here](https://dimainit.github.io/studio-laska-wedding/)   
+
 Responsive landing page for a fictional wedding agency, focused on clean UI, structured layout, and modern frontend practices.
 
 ## 🎯 Overview
